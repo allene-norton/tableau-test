@@ -121,3 +121,7 @@ export default function Home() {
     </>
   )
 }
+
+export async function getServerSideProps(context) {
+  // call JWT gen in here and pass to App
+}
